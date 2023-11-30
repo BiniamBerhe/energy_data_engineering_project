@@ -59,14 +59,14 @@ This repository documents our entire journey, starting from extracting, transfor
 
 ## Installation
 
-1. Clone the repository: Open terminal type `git clone https://github.com/your-username/energy-data-analysis.git`
+1. Clone the repository: Open terminal type `git clone https://github.com/BiniamBerhe/energy_data_engineering_project`
 2. Navigate to the project directory: `cd energy_data_engineering_project`
 3. Install dependencies: `pip install -r requirements.txt`
    - Note: I strongly recommend installing the dependencies in a Python environment. If you don't have a Python environment set up yet, follow these steps: First, open your terminal and create a virtual environment, for example: `python3.11 -m venv env`. Next, activate the environment using the command: `source env/bin/activate`.
 
 ## Usage
 
-To run the Flask API and Streamlit dashboard: navigate to the "energy-data-analysis" folder and execute the command `python energy_data_insights_app.py`. Then look for a page with `http://localhost/`.
+To run the Flask API and Streamlit dashboard: navigate to the "energy_data_engineering_project" folder and execute the command `python energy_data_insights_app.py`. Then look for a page with `http://localhost/`.
 
 **Optional**: In the project folder, you have the option to recreate the database, perform data modeling, extraction, and prediction.
 To do this:
@@ -98,14 +98,14 @@ It's recommended to proceed with these steps only when necessary, such as when u
 
 Showcasing navigation through the dashboard with the following GIF:
 
-![Streamlit GIF](assets\streamlitGIF.gif)
-![Streamlit GIF](assets\streamlitGIF2.gif)
+![Streamlit GIF](assets/streamlitGIF.gif)
+![Streamlit GIF](assets/streamlitGIF2.gif)
 
 ## Data Model
 
 This data model image provides an overview of our database schema, illustrating the entities and their relationships.
 
-![Data Model](assets\ERD.gif)
+![Data Model](assets/ERD.gif)
 
 ### Entities:
 
