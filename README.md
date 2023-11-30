@@ -23,7 +23,10 @@ This repository documents our entire journey, starting from extracting, transfor
 ## Project Structure
 
 ```.
+├── .gitignore                  # File to ignore unnecessary files
 ├── config.py                   # Configuration file, settings for the project.
+├── energy_data_insights_app.py # Script for running the Flask API and Streamlit dashboard.
+├── LICENSE                     # Repo license
 ├── README.md                   # Main documentation file explaining the project.
 ├── requirements.txt            # List of Python dependencies required for the project.
 ├── run.py                      # Script for running the Flask API.
@@ -32,16 +35,17 @@ This repository documents our entire journey, starting from extracting, transfor
 ├── app
 │   ├── models.py              # Contains data models, classes representing entities/tables.
 │   ├── populate_db.py         # Script for populating the database with initial data.
-│   ├── process_energy_data.py  # Script for processing and analyzing and predicting missing values for energy consumption data.
-│   ├── urls.py                 # Defines URL patterns and routes for the Flask API.
-│   ├── __init__.py             # Initialization file for the 'app' module.
+│   ├── process_energy_data.py # Script for processing and analyzing and predicting missing values for energy consumption data.
+│   ├── urls.py                # Defines URL patterns and routes for the Flask API.
+│   ├── __init__.py            # Initialization file for the 'app' module.
 │   │
-│   └── schemas                 # Module containing data schemas for validation.
+│   └── schemas                # Module containing data schemas for validation.
 │       ├── energy_record_schema.py  # Schema definition for energy consumption records.
 │
 ├── assets
 │   ├── ERD.gif                # Entity-Relationship Diagram GIF.
-│   └── ezgif.com-video-to-gif.gif  # GIF demonstrating how to navigate through the dashboard.
+│   ├── ezgif.com-video-to-gif.gif  # GIF demonstrating how to navigate through the dashboard.
+    └── streamlitGIF2.gif
 │
 ├── instance
 │   └── energy_api.db           # SQLite database file for the Flask API.
