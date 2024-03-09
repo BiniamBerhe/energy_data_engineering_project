@@ -1,0 +1,69 @@
+<mxfile host="65bd71144e">
+    <diagram id="S3ZzAgOpK-TAcqcuuLXa" name="Page-1">
+        <mxGraphModel dx="1386" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object label="DATA ANALYSIS AND PREDICTION" hedietLinkedDataV1_start_col_x-num="0" hedietLinkedDataV1_start_line_x-num="0" hedietLinkedDataV1_end_col_x-num="26" hedietLinkedDataV1_end_line_x-num="3" id="5">
+                    <mxCell style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;fontFamily=Times New Roman;" parent="1" vertex="1">
+                        <mxGeometry x="150" y="260" width="140" height="80" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="26" value="" style="endArrow=none;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="690" as="sourcePoint"/>
+                        <mxPoint x="880" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="&lt;font face=&quot;Times New Roman&quot;&gt;SQLITE&lt;/font&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;gradientColor=none;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="340" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font face=&quot;Times New Roman&quot;&gt;FLASK&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Times New Roman&quot;&gt;CRUD API&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;labelBackgroundColor=none;strokeColor=#0080F0;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="440" width="76.5" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="SQLAlchemy" style="endArrow=none;dashed=1;html=1;backgroundOutline=0;flowAnimation=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#CFC811;fontFamily=Times New Roman;labelBackgroundColor=none;" edge="1" parent="1" source="35" target="39">
+                    <mxGeometry x="-0.1194" y="-11" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="280" as="sourcePoint"/>
+                        <mxPoint x="484" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="390"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="&lt;font face=&quot;Times New Roman&quot;&gt;EUROSTATS DATA&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#3333FF;fillColor=#18141D;shape=mxgraph.azure.website_generic;pointerEvents=1;labelBackgroundColor=none;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="168" y="100" width="104" height="72.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=none;dashed=1;html=1;fontColor=#FFCCE6;flowAnimation=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="160" as="sourcePoint"/>
+                        <mxPoint x="210" y="260" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="DATA MODELING" style="endArrow=none;dashed=1;html=1;backgroundOutline=0;flowAnimation=1;fontColor=#CFC811;fontFamily=Times New Roman;strokeColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry x="0.2356" y="-14" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="340" as="sourcePoint"/>
+                        <mxPoint x="400" y="386" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="210" y="385.34000000000003"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=none;dashed=1;html=1;fontColor=#FFCCE6;flowAnimation=1;" edge="1" parent="1" source="39">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="570" as="sourcePoint"/>
+                        <mxPoint x="520" y="590" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="698" y="590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;p&gt;&lt;font face=&quot;Times New Roman&quot;&gt;STREAMLITAPP&lt;/font&gt;&lt;/p&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/other/Dashboard_Hub.svg;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=#FFCCE6;fillColor=#18141D;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="520" width="160.31" height="122.59" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

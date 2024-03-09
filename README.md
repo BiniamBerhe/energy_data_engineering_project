@@ -1,5 +1,7 @@
 # Energy Data Engineering and Dashboard Project
 
+![alt text](try.drawio.png)
+
 This repository contains the code for an end-to-end data engineering project focusing on energy consumption. The project includes data modeling, Flask API creation, analysis, missing data prediction, and dashboarding using Streamlit.
 
 ## Table of Contents
@@ -111,7 +113,7 @@ This data model image provides an overview of our database schema, illustrating 
 
 ![Data Model](assets/ERD.gif)
 
-### Entities:
+### Entities
 
 1. **Countries:**
 
@@ -137,7 +139,7 @@ This data model image provides an overview of our database schema, illustrating 
    - Attributes: id (Primary Key), countries_id (Foreign Key), energy_types_id (Foreign Key), energy_use_types_id (Foreign Key), units_id (Foreign Key), year, energy_consumption
    - Relationships: Many-to-One with Countries, EnergyTypes, EnergyUseTypes, Units
 
-### Relationships:
+### Relationships
 
 - **Countries -< EnergyRecord:** One-to-Many relationship between Countries and EnergyRecord.
 - **EnergyTypes -< EnergyRecord:** One-to-Many relationship between EnergyTypes and EnergyRecord.
@@ -148,7 +150,7 @@ This data model image provides an overview of our database schema, illustrating 
 
 Within the Notebooks directory, you'll find the Jupyter notebook file named `explore_energy_data.ipynb`. In this notebook, we conducted a detailed analysis and employed the DecisionTreeRegressor for predicting missing data within the energy consumption dataset.
 
-## Areas for Improvement:
+## Areas for Improvement
 
 1. Enhanced CRUD API Error Handling:
    - Strengthen error handling for a more user-friendly experience.
